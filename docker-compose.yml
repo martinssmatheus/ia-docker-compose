@@ -11,6 +11,14 @@ services:
       - ollama
     restart: unless-stopped
 
+  chat:
+    build: ./chat_ui
+    ports:
+      - "7860:7860"
+    depends_on:
+      - app
+    restart: unless-stopped
+    
   ollama:
     image: ollama/ollama
     runtime: nvidia
