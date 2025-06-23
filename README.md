@@ -38,6 +38,9 @@ noe/
 # Suba os containers com build e GPU
 docker compose up --build -d
 
+# Para atualizar o projeto, rode o script deploy.sh
+./deploy.sh
+
 # Rodar dentro do container ollama
 - ollama pull llama3
 - ollama pull deepseek-r1
