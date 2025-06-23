@@ -14,7 +14,7 @@ Este projeto roda uma IA local com o modelo **LLaMA 3** utilizando [Ollama](http
 
 ## 📁 Estrutura do Projeto
 
-noe/
+ia-docker-compose/
 ├── app/
 │ └── main.py
 | └── ai.py
