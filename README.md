@@ -19,6 +19,10 @@ ia-docker-compose/
 │ └── main.py
 | └── ai.py
 │
+├── chat_ui/
+│ └── chat_ui.py
+| └── Dockerfile
+│
 ├── requirements.txt # Dependências Python
 ├── Dockerfile # API FastAPI
 ├── docker-compose.yml # Orquestração
